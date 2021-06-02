@@ -1,0 +1,21 @@
+.navbar {
+    font-size: 1.6rem;
+    padding: 2rem;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.63);
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+        list-style: none;
+        display: flex;
+
+        li {
+            margin-right: 3rem;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(119, 119, 119);
+    }
+}

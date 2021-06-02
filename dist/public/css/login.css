@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  color: #777;
+  font-size: 1.6rem;
+}
+
+.btn {
+  padding: 5px 2rem;
+  border-radius: 5px;
+  background-color: dodgerblue;
+  color: #eee !important;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.navbar {
+  font-size: 1.6rem;
+  padding: 2rem;
+  border-bottom: 1px solid #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-right: 3rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #777;
+}
+
+.login {
+  width: 50rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 90vh;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0 auto;
+}
+
+.login form {
+  width: 80%;
+  margin: 3rem auto;
+}
+
+.login form .form__control {
+  margin-bottom: 3rem;
+  display: block;
+}
+
+.login form .form__control label {
+  width: 100%;
+}
+
+.login form .form__control input {
+  width: 100%;
+  padding: 1rem;
+}
+
+.login form .btn-container {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=login.css.map */
